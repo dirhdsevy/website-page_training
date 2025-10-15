@@ -1,0 +1,29 @@
+.left-header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: auto;
+}
+
+.left-header-section img {
+  width: 20%;
+}
+
+.right-header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.right-header-section a {
+  font-size: 20px;
+}
+.right-header-section img {
+  display: none;
+  width: 100%;
+}
+

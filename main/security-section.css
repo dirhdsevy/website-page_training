@@ -1,0 +1,64 @@
+.security-title {
+color: rgba(255, 255, 255, 1);
+text-align: center;
+font-family: "Space Grotesk", Arial;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 116%;
+width: 45%;
+letter-spacing: -1px;
+}
+
+.security-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10%;
+  width: 100%;
+}
+
+.security-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.security-stars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.security-text {
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 178%;
+  width: 74%;
+}
+
+.security-divider {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  height: auto;
+}
+
+.security-divider-none {
+  display: none;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  height: auto;
+}

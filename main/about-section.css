@@ -1,0 +1,49 @@
+.about-divider {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 5%;
+}
+
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.about-right h2 {
+  color: rgba(18, 20, 29, 1);
+  font-family: "Space Grotesk", Arial;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%;
+  letter-spacing: -1px;
+  text-align: start;
+}
+
+.about-right p {
+  font-size: 16px;
+  line-height: 162%;
+  text-align: start;
+}
+
+.about-divider-none {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+}

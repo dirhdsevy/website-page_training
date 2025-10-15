@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(18, 20, 29, 1);
+  font-family: "Inter", Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+p {
+  color: rgba(18, 20, 29, 1);
+  font-family: "Inter", Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+html {
+  background-color: rgba(255, 255, 255, 1);
+  margin: 0%;
+}
+
+body {
+  margin: 0%;
+}
+
+header {
+  background-color: rgba(250, 250, 250, 1);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+  padding: 2.5% 10% 2.5% 10%;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5% 10% 0% 10%;
+  background-color: rgba(24, 24, 27, 1);
+}
+
+@media (max-width: 1000px) {
+  main .hero-section, main .features-section, main .about-section, main .security-section, main .pricing-section, main .testimonials-section, footer {
+    padding: 0% 0%;
+}
+  header {
+    padding: 3% 2.5%;
+  }
+  
+  header .left-header-section img {
+    width: 40%;
+  }
+
+  header .right-header-section a {
+    display: none;
+  }
+
+  header .right-header-section img {
+    display: block;
+  }
+
+  main .hero-content {
+    padding: 10% 2.5%;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+  }
+
+  main .hero-left-box {
+    display: none;
+  }
+
+  main .hero-right-box {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    gap: 20px;
+  }
+
+  main .hero-right-box-text {
+    align-items: center;
+  }
+
+  main .hero-text {
+    text-align: center;
+  }
+
+  main .hero-title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 130%;
+  }
+
+  main .hero-ordinary-text {
+    text-align: center;
+    width: 80%;
+  }
+
+  main .hero-none-box {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  main .hero-button {
+    align-self: center;
+  }
+
+  main .dwarf {
+    display: none;
+  }
+
+  main .hero-divider {
+    display: none;
+  }
+
+  main .hero-divider-none {
+    display: block;
+  }
+
+  main .features-article {
+    flex-direction: column;
+  }
+
+  main .features-cell-left, main .features-cell-mid, main .features-cell-right {
+    width: 100%;
+    align-items: center;
+    padding: 5% 0%;
+  }
+
+  main .features-cell-left p, main .features-cell-mid p, main .features-cell-right p {
+    width: 83%;
+  }
+  main .features-cell-mid {
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid rgba(228, 228, 231, 1);
+    border-bottom: 1px solid rgba(228, 228, 231, 1);
+    padding: 10% 0%;
+  }
+
+  main .features-title, main .features-text {
+    text-align: center;
+  }
+
+  main .features-box {
+    flex-direction: column;
+    padding: 5% 0%;
+  }
+
+  main .features-img {
+    display: none;
+  }
+
+  main .features-img-none {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+  }
+
+  main .features-box-text {
+    width: 90%;
+    align-items: center;
+    gap: 20px;
+  }
+
+  main .features-box-text h2 {
+    width: 80%;
+  }
+
+  main .features-box-text p{
+    width: 95%;
+  }
+
+  main .features-divider {
+    display: none;
+  }
+
+  main .features-divider-none {
+    display: block;
+  }
+
+  main .ord-title {
+    font-size: 32px;
+    line-height: 125%;
+    text-align: center;
+  }
+
+  main .ord-text {
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+  }
+
+  main .about-section {
+    padding: 5% 0%;
+  }
+
+  main .about-content {
+    flex-direction: column;
+    padding: 5% 0%;
+  }
+
+  main .about-content img {
+    width: 90%;
+    height: auto;
+  }
+
+  main .about-right {
+    width: 90%;
+    align-items: center;
+    gap: 20px;
+  }
+
+  main .about-content h2 {
+    font-size: 32px;
+    line-height: 125%;
+    text-align: center;
+    width: 80%;
+  }
+
+  main .about-content p {
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    width: 90%;
+  }
+
+  main .security-section {
+    padding: 10% 0% 15% 0%;
+    gap: 40px;
+  }
+
+  main .security-title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 125%;
+    width: 90%;
+  }
+
+  main .security-text {
+    width: 90%;
+  }
+
+  main .security-box {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  main .security-cell {
+    gap: 20px;
+  }
+
+  main .security-divider {
+    display: none;
+  }
+
+  main .security-divider-none {
+    display: block;
+  }
+
+  main .pricing-section {
+    padding: 0% 0% 5% 0%;
+    gap: 25px;
+  }
+
+  main .pricing-title {
+    gap: 5%;
+  }
+
+  main .pricing-title h2{
+    font-size: 32px;
+    line-height: 125%;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 5%;
+  }
+  
+  main .pricing-article {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  main .pricing-cell {
+    width: 80%;
+    padding: 5% 0% 15% 0%;
+  }
+
+  main .testimonials-section {
+    padding: 10% 0%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  main .testimonials-left {
+    width: 90%;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  main .testimonials-title {
+    text-align: center;
+  }
+
+  main .testimonials-text {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  main .testimonials-right {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  main .testimonials-cell {
+    width: 90%;
+    align-items: center;
+  }
+
+  main .testimonials-cell p {
+    text-align: center;
+  }
+
+  footer {
+    padding: 10% 5% 5% 5%;
+  }
+
+  footer .footer-top {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  footer .footer-cell-pair {
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  footer .footer-cell h3{
+    font-size: 16px;
+  }
+
+  footer .footer-cell p{
+    font-size: 16px;
+  }
+
+  footer .footer-bottom {
+    gap: 20px;
+  }
+  
+  footer .footer-bottom-text {
+    font-size: 13px;
+  }
+}

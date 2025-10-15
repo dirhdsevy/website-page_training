@@ -1,0 +1,93 @@
+.pricing-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.pricing-title h2 {
+  color: rgba(18, 20, 29, 1);
+  font-family: "Space Grotesk", Arial;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%;
+  letter-spacing: -1px;
+}
+
+.pricing-title p {
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.pricing-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 3%;
+}
+
+.pricing-cell {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  border: 1px solid rgba(228, 228, 231, 1);
+  border-radius: 5px;
+  padding: 2% 5% 5% 5%;
+}
+
+.pricing-term {
+  color: rgba(113, 113, 122, 1);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 166%;
+}
+
+.pricing-price {
+  color: rgba(18, 20, 29, 1);
+  font-family: "Space Grotesk";
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 124%;
+}
+
+.pricing-text {
+  color: rgba(82, 82, 91, 1);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.discount {
+  color: rgba(24, 24, 27, 1);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 188%;
+}
+
+.pricing-button {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: rgba(32, 31, 34, 1);
+  color: white;
+  border: 0px solid;
+  padding: 3.5%;
+  gap: 5%;
+  bottom: 0%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.pricing-button:hover {
+  background-color: rgba(239, 68, 68, 1);
+  transition: 0.15s;
+}
